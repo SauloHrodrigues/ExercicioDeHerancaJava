@@ -14,8 +14,13 @@ public class Produto {
     }
 
     //Metodos
+    public String etiquetaDePreco(){
+        StringBuilder sb = new StringBuilder();
+        sb.append("Preço da etiqueta:\n");
+        sb.append(this.nomeProduto+" R$ "+this.precoProduto);
+        return sb.toString();
+    }
 
-    // implementar
 
     //geters e setters
 
